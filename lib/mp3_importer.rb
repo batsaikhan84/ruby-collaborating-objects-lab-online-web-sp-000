@@ -5,7 +5,7 @@ class MP3Importer
   end
   
   def files
-    mp3_files = Dir.glob("#{path}/*.mp3").map {|f| File.basename f}
+    mp3_files = Dir.glob("#{path}/*.mp3").map{|f| File.basename f}
   end
   
   def import
